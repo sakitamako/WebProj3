@@ -7,12 +7,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>INDEX</title>
+        <title>HelloStruts</title>
     </head>
     <body>
-    <!-- "HelloStrutsAction"の部分はstruts.xmlファイルの一部分にアクションして持ってきた情報を次のページで表示する -->
-        <s:form action="HelloStrutsAction">
-            <s:submit value="HelloStruts"/>
-        </s:form>
+        <h1>HelloStruts2!</h1>
+        <br>
+        <!-- strutsファイルのresult部分がsuccessの場合に表示される -->
+        <h3><s:property value="result"/></h3>
     </body>
 </html>

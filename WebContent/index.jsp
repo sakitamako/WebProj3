@@ -14,5 +14,10 @@
         <s:form action="HelloStrutsAction">
             <s:submit value="HelloStruts"/>
         </s:form>
+
+        <!-- "WelcomeAction"の部分はstruts.xmlファイルの一部分にアクションして持ってきた情報を次のページで表示する -->
+        <s:form action="WelcomeAction">
+            <s:submit value="Welcome"/>
+        </s:form>
     </body>
 </html>

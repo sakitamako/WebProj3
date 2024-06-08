@@ -1,4 +1,4 @@
-package DBConnector;
+package com.diworksdev.webproj3.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

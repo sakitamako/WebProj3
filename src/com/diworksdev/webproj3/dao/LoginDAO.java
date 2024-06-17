@@ -8,6 +8,8 @@ import java.sql.SQLException;
 import com.diworksdev.webproj3.dto.LoginDTO;
 import com.diworksdev.webproj3.util.DBConnector;
 
+//DAOクラスでは、Actionから送られてきた情報を使ってDBへ問い合わせを行うファイル
+//問い合わせて取得した値をDTOクラスに格納するファイル
 public class LoginDAO {
 
 	public String username;

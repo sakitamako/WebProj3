@@ -1,5 +1,6 @@
 package com.diworksdev.webproj3.dto;
 
+//DTOクラスは、DAOがDBから取得した値をActionへ戻す時、値を格納するのに利用されるファイル
 public class InquiryDTO {
 
 	//テーブルから取得するデータに対応したフィールド変数を宣言
@@ -15,7 +16,7 @@ public class InquiryDTO {
 	}
 
 	//フィールド変数に対応したgetterとsetterを定義
-	//DAOクラスから呼び出され、引数として受け取ったテーブルの値を自身のnameフィールドに格納
+	//DAOクラスから呼び出され、引数として受け取ったテーブルの値を自身のDTO nameフィールドに格納
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -26,7 +27,7 @@ public class InquiryDTO {
 
 	}
 
-	//DAOクラスから呼び出され、引数として受け取ったテーブルの値を自身のqtypeフィールドに格納
+	//DAOクラスから呼び出され、引数として受け取ったテーブルの値を自身のDTO qtypeフィールドに格納
 	public void setQtype(String qtype) {
 		this.qtype = qtype;
 
@@ -38,7 +39,7 @@ public class InquiryDTO {
 
 	}
 
-	//DAOクラスから呼び出され、引数として受け取ったテーブルの値を自身のbodyフィールドに格納
+	//DAOクラスから呼び出され、引数として受け取ったテーブルの値を自身のDTO bodyフィールドに格納
 	public void setBody(String body) {
 		this.body = body;
 

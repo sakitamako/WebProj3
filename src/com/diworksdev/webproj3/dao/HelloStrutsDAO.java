@@ -8,6 +8,8 @@ import java.sql.SQLException;
 import com.diworksdev.webproj3.dto.HelloStrutsDTO;
 import com.diworksdev.webproj3.util.DBConnector;
 
+//DAOクラスでは、Actionから送られてきた情報を使ってDBへ問い合わせを行うファイル
+//問い合わせて取得した値をDTOクラスに格納するファイル
 public class HelloStrutsDAO {
 
 	//クラス、メソッドの定義
@@ -46,6 +48,7 @@ public class HelloStrutsDAO {
 			//データが存在していれば戻り値を true で返す・存在しなければ falseで返す
 			if (rs.next()) {
 				dto.setResult("MySQL と接続できます。");
+
 			} else {
 				dto.setResult("MySQL と接続できません。");
 

@@ -22,7 +22,7 @@ public class HelloStrutsDAO {
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 
-		//getConnectionの呼び出し（DBと接続する）
+		//HelloStrutsDTOインスタンス化
 		HelloStrutsDTO dto = new HelloStrutsDTO();
 
 		//sql文を書く

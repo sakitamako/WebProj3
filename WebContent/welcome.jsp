@@ -10,9 +10,7 @@
         <title>WELCOME</title>
     </head>
     <body>
-        名前とパスワードを入力してください！
-        <!-- ユーザー名とパスワードを入力し送信ボタンを押すことで
-        strutsファイルのLoginAction部分にアクションし処理結果を送信ボタン押した先のjspファイルで表示する -->
+        ユーザー名とパスワードを入力してください！
         <s:form method="post" action="LoginAction">
             <s:textfield name="username" label="ユーザー名"/>
             <s:password name="password" label="パスワード"/>

@@ -39,7 +39,7 @@ public class LoginAction extends ActionSupport {
 		dto = dao.select(username, password);
 
 		//aとbが共にtrueの時に処理を実行するそうでない場合はエラー
-		if (this.username.equals(dto.getUsername()) && this.password.equals(dto.getPassword())){
+		if (this.username.equals(dto.getUsername()) && this.password.equals(dto.getPassword())) {
 
 			ret = SUCCESS;
 
